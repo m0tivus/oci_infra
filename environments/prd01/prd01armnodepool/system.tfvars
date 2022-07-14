@@ -10,7 +10,7 @@ tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaae4fky66zxlc3nhlsx4i3utq4hchaxieu5
 region           = "sa-santiago-1"
 user_ocid        = "ocid1.user.oc1..aaaaaaaad727zxb3lict64henfdecajrwfis7rbg5lz4ja2lvqkvktotvwka"
 fingerprint      = "60:ab:f7:ee:8f:41:76:47:fa:cb:5f:ff:1b:42:13:76"
-private_ssh.pem_path = "/home/ubuntu/.ssh/private.pem"
+private_key_path = "/home/ubuntu/.ssh/private.pem"
 ######################################## PROVIDER SPECIFIC VARIABLES ######################################
 ######################################## NODE01 SPECIFIC VARIABLES ########################################
 node01_ssh_public_key                      = "/home/ubuntu/REPOS/OCIFE/oci_infra/keys/ssh/public_ssh.pem"
