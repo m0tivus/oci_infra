@@ -16,7 +16,7 @@ private_key_path = "/home/ubuntu/.ssh/private.pem"
 ######################################## OKE01 SPECIFIC VARIABLES ######################################
 oke01_instance_compartment_name             = "PRD01_ARTIFACTS"
 oke01_network_compartment_name              = "PRD01_NETWORK"
-oke01_vcn_display_name                      = "PRD01_NETWORK"
+oke01_vcn_display_name                      = "PRD01_VCN"
 oke01_lbaas_network_subnet_name             = "prd01_publbaassn01"
 oke01_endpoint_subnet_name                  = "prd01_pvtappsn01"
 oke01_endpoint_is_public_ip_enabled         = false

@@ -14,7 +14,7 @@ private_key_path = "/home/ubuntu/.ssh/private.pem"
 ######################################## PROVIDER SPECIFIC VARIABLES ######################################
 ######################################## NODE01 SPECIFIC VARIABLES ########################################
 node01_ssh_public_key                      = "/home/ubuntu/REPOS/OCIFE/oci_infra/keys/ssh/public_ssh.pem"
-node01_ssh_private_ssh                     = "/home/ubuntu/REPOS/OCIFE/oci_infra/keys/ssh/private_ssh.pem"
+node01_ssh_private_key                    = "/home/ubuntu/REPOS/OCIFE/oci_infra/keys/ssh/private_ssh.pem"
 node01_ssh_public_is_path                  = true
 node01_ssh_private_is_path                 = true
 node01_oke_cluster_compartment_name        = "PRD01_ARTIFACTS"
@@ -22,7 +22,7 @@ node01_oke_network_compartment_name        = "PRD01_NETWORK"
 node01_oke_availability_domain_map         = { "ad1" : "jDUk:SA-SANTIAGO-1-AD-1" }
 node01_oke_cluster_name                    = "prd01okecluster"
 node01_oke_nodepool_network_subnet_name    = "prd01_pvtappsn01"
-node01_k8s_version                         = "v1.23.5"
+node01_k8s_version                         = "v1.23.4"
 node01_node_pool_name                      = "prd01armnodepool"
 node01_node_pool_shape                     = "VM.Standard.A1.Flex"
 node01_is_flex_shape                       = true

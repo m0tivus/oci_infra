@@ -37,8 +37,8 @@ hub01_is_spoke                           = false
 
 ############## PRD01 SPECIFIC VARIABLES ##############
 prd01_vcn_cidr_blocks                    = ["21.0.0.0/16"]
-prd01_private_subnet_cidr_block_map      = { "prd01_pvtappsn01" : "21.0.0.128/26", "prd01_pvtdbsn01" : "21.0.0.192/26" }
-prd01_public_subnet_cidr_block_map       = { "prd01_pubgpsn01" : "21.0.0.0/26", "prd01_publbaassn01" : "21.0.0.64/26" }
+prd01_private_subnet_cidr_block_map      = { "prd01_pvtappsn01" : "21.0.8.0/22", "prd01_pvtdbsn01" : "21.0.12.0/22" }
+prd01_public_subnet_cidr_block_map       = { "prd01_pubgpsn01" : "21.0.0.0/22", "prd01_publbaassn01" : "21.0.4.0/22" }
 prd01_vcn_display_name                   = "PRD01_VCN"
 prd01_vcn_network_compartment_name       = "PRD01_NETWORK"
 prd01_dhcp_options_display_name          = "PRD01_DHCP_Options"
